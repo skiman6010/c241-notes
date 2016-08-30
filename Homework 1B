@@ -12,7 +12,7 @@
 	c. "If done in a static method, the thread acquires the lock for the class object associated with the class." I found this proposition in an article on codurance talking about flaws in the Java synchronisers. I believe it is false because I can think of a specific way to do this flaw without it being a static method and without it acquiring the lock for the class object.
 	
 2. Let p, q and r be the propositions
-	a. $r \neg q$
+	a. $r \wedge \neg q$
 	b. $r \rightarrow q$
 	c. $r \rightarrow q$
 	d. $r \leftrightarrow q$
