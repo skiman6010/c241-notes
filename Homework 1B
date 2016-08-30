@@ -31,6 +31,6 @@
 	g. p: most finished in less than 8 minutes, q: were not timed, $q \wedge p$
 	h. 
 	i. p: the printer can hold a back ink cartidge, q: a color cartridge, $p \vee q$
-	j. 
-	k.
-	l.
+	j. p: do they come out, q: a person has a real desire to want to change, r: puts forth real effort, $(q \wedge r) \rightarrow p$
+	k. p: the existence of a Lyapunov function, q: stability of the system, $p \rightarrow q$
+	l. p: high-quality curricular materials, q: component in bringing about change in teacher behavior, $q \rightarrow \neg p \wedge \neg p \rightarrow q  $ 
