@@ -6,10 +6,10 @@
 1. Real World Examples
 	a. "If you're getting started with a smart home setup or working on an upgrade, your wallet is probably feeling pretty light." This is a quote from androidpolice.com talking about how setting up a smart home is expensive and difficult.
 	
-	b. 
+	b. "Federal officials announced the action Thursday amid a series of measures that could threaten the survival of the chain, which has been the subject of state and federal investigations focusing on its recruiting and accounting practices." I found this proposition in an article by the LA Times about ITT Tech being banned from accepting new students. 
 
-	c.
-
+	c. "If done in a static method, the thread acquires the lock for the class object associated with the class." I found this proposition in an article on codurance talking about flaws in the Java synchronisers. I believe it is false because I can think of a specific way to do this flaw without it being a static method and without it acquiring the lock for the class object.
+	
 2. Let p, q and r be the propositions
 	a. $r \neg q$
 	b. $r \rightarrow q$
@@ -29,7 +29,7 @@
 	e. p: all prizes will be awarded, q: number of eligible entries are received, $p \rightarrow q$
 	f. p: the absence of antibodies in the subject's body, q: susceptible to infection, $\neg p \rightarrow q$
 	g. p: most finished in less than 8 minutes, q: were not timed, $q \wedge p$
-	h. 
+	h. p: the new regulation does not apply, q: both houses vote to impose it, $\neg q \rightarrow p$
 	i. p: the printer can hold a back ink cartidge, q: a color cartridge, $p \vee q$
 	j. p: do they come out, q: a person has a real desire to want to change, r: puts forth real effort, $(q \wedge r) \rightarrow p$
 	k. p: the existence of a Lyapunov function, q: stability of the system, $p \rightarrow q$
