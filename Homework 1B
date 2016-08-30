@@ -1,0 +1,36 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Homework 1B
+
+1. Real World Examples
+	a. "So if the skeptics wanted something to examine, then let them try his work." This quote is from Slate.com talking about if smiling can make you happier or not. 
+	
+	b. 
+
+	c.
+
+2. Let p, q and r be the propositions
+	a. $r \neg q$
+	b. $r \rightarrow q$
+	c. $r \rightarrow q$
+	d. $r \leftrightarrow q$
+	e. $r \leftrightarrow (q \vee p)$
+	f. $r \rightarrow (p \wedge q) $
+	g. $r \rightarrow p$
+	h.$p \rightarrow r$
+	i. $(p \wedge \neg q) \rightarrow r$
+
+3. Translate the following English sentences.
+	a. p: the suspect wore gloves, q: he didn't touch the doorknob,  $p \vee q$
+	b. p: I will eat my tie, q: the Cubs win the World Series, $p \rightarrow q$
+	c. p: It smelled funny, q: he ate it anyway, $p \wedge q$
+	d. p: The people will give up their arms, q: the tyrant resigns, r: we get our money back, $p \rightarrow (q \wedge r)$
+	e. p: all prizes will be awarded, q: number of eligible entries are received, $p \rightarrow q$
+	f. p: the absence of antibodies in the subject's body, q: susceptible to infection, $\neg p \rightarrow q$
+	g. p: most finished in less than 8 minutes, q: were not timed, $q \wedge p$
+	h. 
+	i. p: the printer can hold a back ink cartidge, q: a color cartridge, $p \vee q$
+	j. 
+	k.
+	l.
