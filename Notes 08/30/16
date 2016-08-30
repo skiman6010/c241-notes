@@ -1,0 +1,47 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Notes 08/30/16
+
+A truth assignment - assigns true or false to all of the atomic proposition. 
+(A = T, B = F, C = F) 
+
+Atomic proposition - "indivisible"  p,q (not $p \wedge q$)
+
+A truth assignment _satisfies_ a formula iff the formula is true under that truth assignment
+
+Does (A = T, B = F) satisfy ($A \rightarrow \neg B) \vee (A \rightarrow B)$? Yes.
+
+A formula is _satisfiable_ iff at least one truth assignment satisfies  it.
+
+Is $p \leftrightarrow (\neg p \wedge q)$ satisfiable?  Yes (P = F, Q = F).
+| P | Q  | $\neg P$  |  $p \leftrightarrow (\neg p \wedge q)$ |
+| ------ |:-----:| ---:|---:|
+| t | t | F | F |
+| t | F | F | F |
+| F | T | t | F |
+| F | F | F | T |
+
+Is $P \wedge \neg P$ satisfiable?  No.
+| P | $\neg P$ | $P \wedge \neg P$ |
+| ------ |:-----:| ---:|
+| T | F | F |
+|F | T | F|
+
+A formula is a ***contradiction*** iff no truth assignment satisfies it. We could also say that the formula is ***unsatisfiable***.
+
+A formula is a ***tautology*** iff every assignment satisfies it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Tautology ex: $P \vee \neg P$.   Always going to end up with true. $P \rightarrow P$.
+
+Is $(P \rightarrow Q) \vee (Q \rightarrow P)$ a tautology? Yes. (See table)
+
+A ***contingency*** is a formula that has both satisfying and nonsatisfying assignments. EX: $P \leftrightarrow (\neg P \wedge Q)$, $P \leftrightarrow Q$, P
+
+| claim | proof | disproof |
+| ------------ |:--------:| ---------:|
+| a fml is satisfiable | assignment | table|
+|a fml is a tautology | table | assignment
+| a fml is a contradiction | table | one true assignment
+| a fml is a contingency | 2 assignments (1 true, 1 false) | table
+
+
