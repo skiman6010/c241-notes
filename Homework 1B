@@ -22,7 +22,7 @@
 	i. $(p \wedge \neg q) \rightarrow r$
 
 3. Translate the following English sentences.
-	a. p: the suspect wore gloves, q: he didn't touch the doorknob,  $p \vee q$
+ 	a. p: the suspect wore gloves, q: he didn't touch the doorknob,  $p \vee q$
 	b. p: I will eat my tie, q: the Cubs win the World Series, $p \rightarrow q$
 	c. p: It smelled funny, q: he ate it anyway, $p \wedge q$
 	d. p: The people will give up their arms, q: the tyrant resigns, r: we get our money back, $p \rightarrow (q \wedge r)$
@@ -34,3 +34,18 @@
 	j. p: do they come out, q: a person has a real desire to want to change, r: puts forth real effort, $(q \wedge r) \rightarrow p$
 	k. p: the existence of a Lyapunov function, q: stability of the system, $p \rightarrow q$
 	l. p: high-quality curricular materials, q: component in bringing about change in teacher behavior, $q \rightarrow \neg p \wedge \neg p \rightarrow q  $ 
+
+4.  Translate to English sentence.
+	a. I entered the lottery, or I won the jackpot.
+	b. I won the jackpot, only if I entered the lottery.
+	c. I entered the lottery, if and only if I won the jackpot.
+	d. I did not enter the lottery, only if I did not win the jackpot.
+	e. I did not enter the lottery, and I did not win the jackpot.
+	f. I did not enter the lottery, or I did enter the lottery and won the jackpot.
+
+5. Claims
+	a. 
+	b.
+	c.
+
+
