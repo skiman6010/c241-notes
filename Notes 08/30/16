@@ -43,5 +43,9 @@ A ***contingency*** is a formula that has both satisfying and nonsatisfying assi
 |a fml is a tautology | table | assignment
 | a fml is a contradiction | table | one true assignment
 | a fml is a contingency | 2 assignments (1 true, 1 false) | table
+|a set of fmls is consistent | assignment | table |
 
 
+A set of formulas is ***consistent*** iff there is at least one truth assignment that satisfies all the formulas in the set. 
+
+{$P \rightarrow Q, P \wedge \neg Q$} Not consistent. 
