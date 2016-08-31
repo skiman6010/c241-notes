@@ -1,0 +1,14 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Homework 1B
+#### Christopher Thurber --- #2A --- 8:00 AM
+
+1. Give an example of each of the following.
+	a.  ($p \rightarrow \neg q) \vee (p \rightarrow q)$
+	b. $(p \vee q) \wedge [(\neg p) \wedge (\neg q)]$
+	c. $p \rightarrow p$
+	d. $p \leftrightarrow q$
+	
+2. Is it satisfiable or not?
+3. A satisfiable formula is a formula that has at least one truth assignment that satisfies the formula. A contingency has both satisfying and unsatisfying qualities to it. Both are similar since a satisfiable formula can have a satisfying and unsatisfying assignment, but they are different because 
