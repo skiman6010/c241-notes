@@ -1,0 +1,43 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Notes 09/06/16
+
+Is $\neg \neg A $
+   $ A \rightarrow (B \wedge C) / C \wedge A$ valid?
+
+
+----------
+
+
+$\neg \neg A, A \rightarrow (B \wedge C) \vdash C \wedge A$
+
+> A, B, D ... $\vdash$ C - means that you can prove C using assumptions
+> A, B, D...
+
+Assume $\neg \neg A$ and $A \rightarrow (B \wedge C) $ are true. 
+Since $\neg \neg A $ holds, so does A. (Double Negation)
+Because we have $A$ and $A \rightarrow (B \wedge C$, we can get $B \wedge C$ (Application)
+$B \wedge C $ leads to C. ($\wedge$-Elimination )
+From A and C, we get $C \wedge A$.  ($\wedge$-Introduction) $\square$
+
+#### Rules for writing "semi-formal" proofs
+
+ 1. Always write what you are proving before the proof itself *
+ 2. Always clearly indicate assumptions.
+ 3. Always indicate what rule you're using.
+ 4. Always indicate which formula(s) you are using.
+
+#### Inference Rules
+
+ - $p \wedge q \vdash p$ or $p \wedge q \vdash q$ --- $\wedge$-Elimination (simplification)
+ - $p,q \vdash p \wedge q$ --- $\wedge$-Introduction (conjunction)
+ - $\neg \neg p \vdash p$ --- Double Negation ($\neg$-Elimination
+ - $p \rightarrow q, p \vdash q$ --- Application ($\rightarrow$ implication) (modus ponens)
+	 - if you have  p implies q, then you'll need to wait until you can also prove p.
+
+
+##### List of Assumption Words
+- Assume
+- Suppose
+- Let
