@@ -11,4 +11,40 @@
 	d. $p \leftrightarrow q$
 	
 2. Is it satisfiable or not?
-3. A satisfiable formula is a formula that has at least one truth assignment that satisfies the formula. A contingency has both satisfying and unsatisfying qualities to it. Both are similar since a satisfiable formula can have a satisfying and unsatisfying assignment, but they are different because 
+	a. Yes. (A = T, B = F)
+	| A | B | $A \rightarrow \neg B$ |
+	| ---- | ---- | ----| 
+	| T | T | F |
+	| T | F | T |
+	| F | T | T |
+	| F | F | T |
+	b. Yes. (A = F)
+    | A |  $A \rightarrow \neg A$ |
+	| ---- | ----| 
+	| T | F |
+	| F | T |
+	c. No.
+	| A | B | $(A \wedge \neg A) \vee (B \wedge \neg B)$ |
+	| ---- | ---- | ----| 
+	| T | T | F |
+	| T | F | F |
+	| F | T | F |
+	| F | F | F |
+	d. Yes. (A = T, B = T)
+	| A | B | $\neg (A \wedge B) \leftrightarrow (\neg A \vee \neg B)$ |
+	| ---- | ---- | ---- |
+	| T | T | T |
+	| T | F | T |
+	| F | T | T |
+	| F | F | T |
+	e. Yes. (B = T, A = F, C = T)
+	| B | A | C | $\neg ((B \wedge \neg A) \rightarrow (A \vee \neg C))$ |
+	| ---- | ---- | ---- | --- |
+	| T | T | T | F |
+	| T | T | F | F |
+	| T | F | T | T |
+	
+	f. Yes. (A = F, D = T, B = T, C = T)
+3. A satisfiable formula is a formula that has at least one truth assignment that satisfies the formula. A contingency has both satisfying and unsatisfying qualities to it. Both are similar since a satisfiable formula can have a satisfying and unsatisfying assignment, but they are different because a satisfiable formula can have only only truth assignment, but a contingency has to have at least one false and one true assignment. A satisfiable does not need a false assignment, while a colntingency does. 
+
+Bonus: the formula a would have a bigger truth table because of how many more variables it has versus the b formula. 
