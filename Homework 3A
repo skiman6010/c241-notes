@@ -1,0 +1,27 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Homework 3A
+#### Christopher Thurber --- 3A --- 8:00 AM
+
+1. Proofs
+	a. $A \wedge \neg B, A \rightarrow C \vdash C \wedge \neg B$ 
+	- Assume $A \wedge \neg B, A \rightarrow C$ are true
+	- $ \neg B $ leads to A ($\wedge$-Elimination)
+	- $A \rightarrow C$ proves C because we have A (Application)
+	- $A \wedge \neg B$ proves that B is true ($\wedge$-Elimination)
+	- From C and B, we get $C \wedge \neg B$ ($\wedge$-Introduction) $\square$
+
+  b. $(P \wedge Q) \rightarrow R, P \wedge S, \neg \neg Q \vdash R$
+   - Assume $(P \wedge Q) \rightarrow R, P \wedge S, \neg \neg Q$ are true
+   - Since $\neg \neg Q$ holds, so does Q (Double Negation)
+   -  $P \wedge Q$ leads to P ($\wedge$-Elimination)
+   - $P \wedge S$ leads to S ($\wedge$-Elimination)
+   - $(P \wedge Q)$ leads to R being true (Application) $\square$
+
+  c. $X \wedge (X \rightarrow (Z \wedge Y)) \vdash X \wedge Y$
+   - Assume $X \wedge (X \rightarrow (Z \wedge Y))$ is true 
+   - Since we have $X \wedge (X \rightarrow (Z \wedge Y)$ we get X and (x \rightarrow Y) ($\wedge$-Elimination)
+   - X and $X \rightarrow (Z \wedge Y) $ gives us $Z \wedge Y$ (Application)
+   - $Z \wedge Y$ gives us Z and Y ($\wedge$-Elimination)
+   - With X and Y, we get $X \wedge Y$ ($\wedge$-Introduction) $\square$
