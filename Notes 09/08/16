@@ -1,0 +1,33 @@
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Notes 09/08/16
+
+#### Inference Rules
+
+ - $p \wedge q \vdash p$ or $p \wedge q \vdash q$ --- $\wedge$-Elimination (simplification)
+ - $p,q \vdash p \wedge q$ --- $\wedge$-Introduction (conjunction)
+ - $\neg \neg p \vdash p$ --- Double Negation ($\neg$-Elimination
+ - $p \rightarrow q, p \vdash q$ --- Application ($\rightarrow$ implication) (modus ponens)
+	 - if you have  p implies q, then you'll need to wait until you can also prove p.
+ - $ p \vdash p \vee q$ --- Weakening (addition)
+ $p \vdash q \vee p$ --- Weakening (addition)
+ - If you assume p and prove q, then you can conclude $p \rightarrow q$ --- Direct Proof 
+
+
+Claim: $(X \rightarrow Y) \wedge X \vdash Y \vee (W \wedge \neg Z)$
+Proof: Assume that $(X \rightarrow Y) \wedge X$ is true
+From $(X \rightarrow Y) \wedge X$, we get $X \rightarrow Y$ and X ($\wedge$-Elim)
+Apply $X \rightarrow Y$ to X to get Y (appl.)
+Since Y is true, we know $Y \vee (W \wedge \neg Z$ is true (weakening)
+
+
+Claim: $(A \wedge B) \rightarrow C, A \vdash (B \wedge D) \rightarrow C$
+Proof: Assume $(A \wedge B) \rightarrow C, A$ --- Goal: $(B \wedge D) \rightarrow C$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Assume that $B \wedge D$ is true
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $B \wedge D$ implies B ($\wedge$-Elim)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; From A and B, I get $A \wedge B$ ($\wedge$-Intro)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Applying $(A \wedge B) \rightarrow C$ to $A \wedge B$ yields C (appl.)
+Assuming $B \wedge D$, we proved C. Therefore, $(B \wedge D) \rightarrow C$ (direct proof) $\square$
+
+
