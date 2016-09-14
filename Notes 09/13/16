@@ -1,0 +1,30 @@
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Notes 09/08/16
+
+Claim: $P \rightarrow Q \vee \neg \neg Q, P \vdash P \wedge Q$
+  - Assume $P \rightarrow Q \vee \neg \neg Q$ and P
+        - Case 1: Assume $P \rightarrow Q$
+        - Apply $P \rightarrow Q$ to P to get Q (application)
+        - Case 2: Assume $\neg \neg Q$
+        - From $\neg \neg Q$, we get Q (Double Negation)
+        - In either case $(P \rightarrow Q$ or $\neg \neg Q$), Q is true. (cases)
+        - From P and Q, we get $P \wedge Q$ ($\wedge$-Intro)
+        - 
+
+
+
+#### Rules
+Proof by cases: If you know $p \vee q$ and you can prove r by assuming p and also prove r by assuming q then you have proven r.
+
+Claim: $P \rightarrow Q \vdash \neg Q \rightarrow \neg P$
+
+ - Assume $P \rightarrow Q$
+	 - Assume $\neg Q$
+		 - Suppose towards a contradiction that P is true
+		      - Applying $P \rightarrow Q$ to P yields Q (appl.)
+		      - But Q can't be true because we have already have $\neg Q$
+	     - Assuming P, I have proved a contradiction, so $\neg P$ is true (contra.)
+	     - From $\neg Q$, we proved $\neg P$ so therefore $\neg Q \rightarrow \neg P$ (dir. pf) $\square$ 
