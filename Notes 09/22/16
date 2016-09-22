@@ -1,0 +1,59 @@
+
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+### Notes 09/22/16
+
+#### Subsets
+ - The set A is a **subject** of the set B iff every member of A is also a member of B (if you have a member of A, then it is also a member of B) $A \subseteq B$
+ - When A is a subset of B, But A does not equal B, we say that A is a **proper** and we write $A \subsetneq B$
+ - When A is a subset of B, we say that B is a **superset** of A
+
+"in" is an ambiguous word
+
+"contains" is also ambiguous
+
+Let A = {0, 1, 2, 3}
+      B = {1, 2,3 }
+      D = {n, | n $\in$ Z $\wedge$ 0 < n < 4}
+      S = { $n^2 | n \in Z $}
+
+True or False
+
+ - $ A \subseteq B$
+	   - False, $0 \in A$ and $0 \notin B$
+ - $B \subseteq A$
+	 - True, every member of B is also a member of A
+ - $ B \in A$
+	- False 
+ - $B \subseteq D$
+	 - True, {1, 2, 3} are all members of D. 
+ - Is B a **proper** subset of D?
+	 - No, because B = D.
+ - D = A?
+	 - No, $0 \notin D$, but $0 \in A$ 
+
+
+
+
+#### Rules
+To prove $P \subseteq Q$, you have to argue why every member of P is also a member of Q.
+To prove $P \subsetneq Q$, you have to prove a counterexample of a meber of P that is not a member of Q. 
+To prove $ P = Q$ (for sets P and Q), you have to show that every member of P is a member of Q ($ P \subseteq Q$) and vice versa ($ Q \subseteq P$).
+To prove $P \neq Q$, give a member of one set that is not a member of the other set.
+
+#### Theorem
+The empty set is a subset of any set. (trivially)
+
+
+#### Cardinality
+Cardinality is one way to talk about the size of a set.
+
+For a finite set C, the _cardinality_ is just the number of members of C. We write |C| for the cardinality of C.
+
+|A| = 4
+|B| = 3
+|S| = infinite
+
+		
+
